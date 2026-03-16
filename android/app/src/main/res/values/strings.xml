@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Star Gazed</string>
+    <string name="accessibility_service_description">Star Gazed uses Accessibility Services to see the screen and perform taps on your behalf when you use voice commands.</string>
+</resources>

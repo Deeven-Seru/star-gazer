@@ -1,0 +1,30 @@
+# Android
+android/.gradle/
+android/build/
+android/.idea/
+android/local.properties
+android/*.iml
+android/.DS_Store
+android/captures/
+android/.externalNativeBuild
+android/.cxx
+android/*.jks
+android/*.p12
+android/*.keystore
+android/google-services.json
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/.DS_Store
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/.vscode/
+backend/.idea/
+
+# General
+.DS_Store
+Thumbs.db
+*.swp
+*.log

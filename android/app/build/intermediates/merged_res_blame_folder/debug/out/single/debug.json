@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.stargazed.assistant.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.stargazed.assistant.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.stargazed.assistant.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.stargazed.assistant.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.stargazed.assistant.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.stargazed.assistant.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/deevenseru/.gradle/daemon/8.4/com.stargazed.assistant.app-merged_res-31:/xml_accessibility_service_config.xml.flat",
+        "source": "/Users/deevenseru/.gradle/daemon/8.4/com.stargazed.assistant.app-main-33:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.stargazed.assistant.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.stargazed.assistant.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

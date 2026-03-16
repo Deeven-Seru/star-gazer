@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="status_text" type="id"/>
+    <string name="accessibility_service_description">Star Gazed uses Accessibility Services to see the screen and perform taps on your behalf when you use voice commands.</string>
+    <string name="app_name">Star Gazed</string>
+</resources>
