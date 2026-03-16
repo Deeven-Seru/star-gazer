@@ -10,6 +10,26 @@ StarGazed is an AI-powered assistant designed for autonomous mobile device contr
 
 StarGazed enables a direct loop between screen perception and action execution. By leveraging the Android Accessibility API, the system can "see" the screen layout, which is then processed by Google Gemini to perform intelligent actions on behalf of the user.
 
+## System Architecture
+
+StarGazed operates as a distributed system coordinating between the mobile device, an orchestration layer, and Generative AI.
+
+```mermaid
+graph TD
+    User((User)) -->|Voice/Text| Android[Android Client]
+    Android -->|Intent + Screen Nodes| Backend[Node.js Backend]
+    Backend -->|Structured Prompt| Gemini[Google Gemini API]
+    Gemini -->|Action JSON| Backend
+    Backend -->|Streamed Actions| Android
+    Android -->|Executes Taps/Types| OS[Android OS]
+    Android -->|TTS Feedback| User
+```
+
+### Core Components
+- **Android Client**: A Kotlin-based application using Accessibility Services to capture UI hierarchies and inject gestures.
+- **Node.js Backend**: An orchestration server that maintains persistent WebSocket connections with mobile clients and manages communication with the AI.
+- **Google Gemini**: The intelligence layer that processes user intent and screen state to determine optimal UI interactions.
+
 ### Features
 - Real-time UI Interaction: High-speed gesture injection including taps, swipes, and scrolls.
 - Voice Autonomous Agent: Wake-word detection and voice-driven command execution.
